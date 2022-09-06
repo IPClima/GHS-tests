@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário do Torcedor</title>
+</head>
+
+<body>
+    <h1>Formulário do Torcedor</h1>
+    <form action="page\obrigado.html">
+        <p>
+            <label for="">Nome do Torcedor:</label>
+            <input type="text" name="txtNome" id="cxNome">
+        </p>
+        <p>
+            <label for="">Possui a camisa de seu time de coração?</label>
+            <br>
+            <input type="radio" name="rdbSim" id="op">
+            <label for="">Sim</label>
+            <input type="radio" name="rdbNao" id="op">
+            <label for="">Não</label>
+        </p>
+        <p>
+            <label for="">Opções:</label> <br>
+
+            <input type="checkbox" name="chkCartaoSocio" id="opSocioTorcedor">
+            <label for="">Possuo cartão de sócio torcedor</label>
+            <br>
+
+            <input type="checkbox" name="chkVaiFrequencia" id="opVaiFrequencia">
+            <label for="">Vou ao estádio pelo menos uma vez por mês </label>
+        </p>
+
+        <p>
+            <label for="">Seu time do coração é:</label>
+            <select name="cmbTimeCoracao" id="comboTime">
+                <option value="">Escolha seu time...</option>
+                <option value="spa">São Paulo</option>
+                <option value="sep">Palmeiras</option>
+                <option value="sfc">Santos</option>
+                <option value="scc">Corinthians</option>
+            </select>
+        </p>
+        <p>
+            <label for="">Deixe aqui suas sugestões: </label>
+            <br>
+            <textarea name="txtSugestao" id="cxSugestao" cols="30" rows="5">
+            </textarea>
+        </p>
+        <p>
+            <input type="reset" value="Limpar Formulário">
+            <input type="submit" value="Enviar" name="txtEnviar" id="botEnviar">
+        </p>
+    </form>
+</body>
+
+</html>
